@@ -17,7 +17,7 @@ namespace PriceReader.Entities
         public int UNIT_ID { get; set; }
         
         public string BARCODE { get; set; }
-        public decimal PRICE1 { get; set; }
-        public int UNIT_QTY { get; set; }
+        public double PRICE1 { get; set; }
+        public double UNIT_QTY { get; set; }
     }
 }

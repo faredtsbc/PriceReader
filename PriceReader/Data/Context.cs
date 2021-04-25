@@ -11,8 +11,8 @@ namespace PriceReader.Data
     {
         public Context() : base("name = con") { }
 
-        public DbSet<Item> Items { get; set; }
-        public DbSet<Barcode> Barcodes { get; set; }
-        public DbSet<Unit> Units { get; set; }
+        public DbSet<Item> ITEMS { get; set; }
+        public DbSet<Barcode> BARCODE { get; set; }
+        public DbSet<Unit> UNITS { get; set; }
     }
 }
