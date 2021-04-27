@@ -30,14 +30,15 @@ namespace PriceReader
                 {
                     db.BARCODE.Any();
                 }
+                lblItemName.Text = "يرجى اجراء مسح الباركود لمنتج لعرض السعر";
             }
            catch (Exception ex)
             {
                 MessageBox.Show("خطأ في الاتصال بقاعدة البيانات");
             }
-                txtbxBarcode.Width = 0;
+            txtbxBarcode.Width = 0;
             txtbxBarcode.Height = 0;
-            lblItemName.Text = "يرجى اجراء مسح الباركود لمنتج لعرض السعر";
+            
 
         }
 
